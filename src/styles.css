@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar {
+    padding: 15px 100px;
+    position: absolute;
+}
+
+header {
+    background-image: url('../src/assets/img/bg.jpg');
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+}
+
+.header-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.texteditor {
+    margin-top: -100px;
+    background-color: #fff;
+    padding: 0 !important;
+}
+
+.outputeditor {
+    margin-top: 100px;
+    border: solid 1px rgb(204, 204, 204);    
+    min-height: 400px;
+    padding: 0;
+}

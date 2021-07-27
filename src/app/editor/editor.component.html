@@ -1,0 +1,25 @@
+<form class="form-inline">
+  <button class="btn btn-primary my-2 my-sm-0" type="submit" (click)="myClickFunction($event)">Spara</button>
+</form>
+<div class="container texteditor">
+    <div class="row">
+      <div class="col-md-12">
+        <quill-editor 
+          class="content-editor" 
+          [placeholder]="'Insert text here...'" 
+          [styles]="{'min-height': '220px'}" 
+          (onEditorChanged)= "changedEditor($event)"
+        >
+        </quill-editor>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container outputeditor">
+    <div class="row output-box">
+      <div class="col-md-12">
+        <p class="m-4" [innerHtml]= "editorText"></p>
+      </div>
+    </div>
+  </div>
+  
