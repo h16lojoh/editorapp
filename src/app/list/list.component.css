@@ -1,0 +1,14 @@
+.list-boxes {
+  margin-top: 50px;
+}
+
+.card {
+  
+}
+
+li {
+  min-width: 100px;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 20px;
+}

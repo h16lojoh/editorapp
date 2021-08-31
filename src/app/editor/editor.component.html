@@ -1,7 +1,16 @@
-<form class="form-inline">
-  <button class="btn btn-primary my-2 my-sm-0" type="submit" (click)="myClickFunction($event)">Spara</button>
-</form>
+
+<app-header></app-header>
+
 <div class="container texteditor">
+    <div class="row button-row">
+      <div class="col-md-12 button-col">
+        <form class="button-form">
+          <a class="btn my-2 my-sm-0" type="submit" (click)="myClickFunction($event)">
+            <span>Spara</span>
+          </a>
+        </form>
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-12">
         <quill-editor 

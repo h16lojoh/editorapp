@@ -1,20 +1,46 @@
+:root {
+    --main-bg-color: linear-gradient(130deg, rgba(34,111,195,1) 0%, rgba(45,253,173,1) 100%);
+    --gradient-backup: rgb(34,111,195);
+}
+
+
 /* You can add global styles to this file, and also import other style files */
+a, a:hover, a:visited {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none;
+}
+
 .navbar {
     padding: 15px 100px;
     position: absolute;
+    background-color: #002691;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff !important;
 }
 
 header {
-    background-image: url('../src/assets/img/bg.jpg');
+    background: var(--main-bg-color);
     height: 400px;
     line-height: 400px;
     text-align: center;
+    color: #fff;
 }
 
 .header-content {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+}
+
+.ql-toolbar {
+    background-color: #FAFCFD;
 }
 
 .texteditor {
@@ -29,3 +55,15 @@ header {
     min-height: 400px;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
