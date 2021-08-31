@@ -1,7 +1,38 @@
 :root {
-    --main-bg-color: linear-gradient(130deg, rgba(34,111,195,1) 0%, rgba(45,253,173,1) 100%);
-    --gradient-backup: rgb(34,111,195);
+    --main-bg-color: #7678ED;
+    --gradient-backup: #7678ED;
+    --second-bg-color: #FDFFF7;
+    --navbar-color: #E3F2FD;
+    --save-button-field: #E3F2FD;
+    --save-button-bg: #FF87AB;
 }
+
+
+.button-form {
+    background-color: var(--save-button-field);
+    overflow: hidden;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 15px 35px 15px 15px;
+    text-decoration: none;
+    color: #fff !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    background-color: var(--save-button-bg) !important;
+    border-radius: 0 !important;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+
+
+
 
 
 /* You can add global styles to this file, and also import other style files */
@@ -17,12 +48,12 @@ li {
 .navbar {
     padding: 15px 100px;
     position: absolute;
-    background-color: #002691;
-    color: #fff;
+    background-color: var(--navbar-color);
+    color: #000;
 }
 
 .navbar-brand {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 header {
